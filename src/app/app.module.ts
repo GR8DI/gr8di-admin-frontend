@@ -13,7 +13,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     SideBarComponent,
     TopBarComponent,
     FooterBarComponent,
-    DashboardComponent
+    DashboardComponent,
+    
   ],
   imports: [
     BrowserModule
