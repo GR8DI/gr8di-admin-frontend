@@ -22,7 +22,8 @@ const routes: Routes = [
     SideBarComponent,
     TopBarComponent,
     FooterBarComponent,
-    DashboardComponent
+    DashboardComponent,
+    
   ],
   imports: [
     BrowserModule,
