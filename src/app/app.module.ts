@@ -8,6 +8,7 @@ import { SideBarComponent } from './side-bar/side-bar.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { FooterBarComponent } from './footer-bar/footer-bar.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { NotificationComponent } from './notification/notification.component';
 
 const routes: Routes = [
   // basic routes
@@ -23,6 +24,7 @@ const routes: Routes = [
     TopBarComponent,
     FooterBarComponent,
     DashboardComponent,
+    NotificationComponent,
     
   ],
   imports: [
