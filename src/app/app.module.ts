@@ -8,11 +8,13 @@ import { SideBarComponent } from './side-bar/side-bar.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { FooterBarComponent } from './footer-bar/footer-bar.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { LoginComponent } from './login/login.component';
 
 const routes: Routes = [
   // basic routes
   { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
-  { path: 'dashboard', component: DashboardComponent }
+  { path: 'dashboard', component: DashboardComponent },
+  { path: 'login', component: LoginComponent }
   //{ path: '**', component: ErrorComponent }
 ];
 
@@ -23,6 +25,7 @@ const routes: Routes = [
     TopBarComponent,
     FooterBarComponent,
     DashboardComponent,
+    LoginComponent,
     
   ],
   imports: [
